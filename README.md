@@ -55,3 +55,7 @@ tunning de palabras: _cursiva_ *cursiva* **negrita** **_cursinegra_**
 ### Como poner una imagen
 
 ![KTM IMG](https://github.com/davidvazquez33/aprendizajemarkdown/blob/main/ktm.png "PopUP")
+
+| Titulo 1 | Titulo 2 | Titulo 3 |
+|--------------|:-------------:|-------------:|
+|Izquierda|Medio|Derecha|
