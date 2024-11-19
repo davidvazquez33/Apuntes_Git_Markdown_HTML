@@ -1,4 +1,45 @@
-# aprendizajemarkdown
+# Apuntes de Github/Markdown/HTML
+## Indice:
+1. [Github](#GITHUB)
+2. [Markdown](#Markdown)
+3. [HTML](#HTML)
+
+# GITHUB
+
+## Comandos básicos de Git
+
+1. **Creación de repositorios:**
+   - Crearemos los repositorios desde la página web.
+
+2. **Clonar un repositorio:**
+   - Utilizaremos la orden: `git clone <link del repositorio>`.
+
+3. **Inicializar un repositorio:**
+   - Utilizaremos: `git init`.
+
+4. **Cambiar la rama:**
+   - Con `git branch -M` podremos cambiar la rama.
+
+5. **Ver las ramas del repositorio:**
+   - Utilizaremos: `git branch`.
+
+6. **Añadir actualizaciones al área intermedia:**
+   - Con `git add .` subiremos todas las actualizaciones al área intermedia.
+
+7. **Guardar los cambios en un commit:**
+   - Con `git commit -m "info commit"` guardaremos los cambios del área intermedia en un commit para después poder subirlos.
+
+8. **Subir el commit:**
+   - Utilizaremos: `git push origin main`.
+
+## Configura GitHub Pages
+
+1. En nuestro repositorio de GitHub, iremos a la pestaña **Settings**.
+2. Nos desplazaremos hasta la sección **Pages**.
+3. En **Source**, seleccionaremos la rama que contenga lo que queremos publicar (main).
+4. Guardaremos los cambios.
+
+# Markdown
 ## Segundo nivel encabezado
 ### Tercer nivel encabezado
 #### Cuarto nivel encabezado
@@ -63,34 +104,6 @@ tunning de palabras: _cursiva_ *cursiva* **negrita** **_cursinegra_**
 |--------------|:-------------:|-------------:|
 |Izquierda|Medio|Derecha|
 
-# APUNTES GITHUB
-
-# Comandos básicos de Git
-
-1. **Creación de repositorios:**
-   - Crearemos los repositorios desde la página web.
-
-2. **Clonar un repositorio:**
-   - Utilizaremos la orden: `git clone <link del repositorio>`.
-
-3. **Inicializar un repositorio:**
-   - Utilizaremos: `git init`.
-
-4. **Cambiar la rama:**
-   - Con `git branch -M` podremos cambiar la rama.
-
-5. **Ver las ramas del repositorio:**
-   - Utilizaremos: `git branch`.
-
-6. **Añadir actualizaciones al área intermedia:**
-   - Con `git add .` subiremos todas las actualizaciones al área intermedia.
-
-7. **Guardar los cambios en un commit:**
-   - Con `git commit -m "info commit"` guardaremos los cambios del área intermedia en un commit para después poder subirlos.
-
-8. **Subir el commit:**
-   - Utilizaremos: `git push origin main`.
-
 # HTML
 
 **HTML (HyperText Markup Language)** es el lenguaje estándar utilizado para crear y estructurar el contenido en la web.  
@@ -106,7 +119,7 @@ Estas etiquetas definen la estructura y el tipo de contenido.
 
 Los atributos son propiedades añadidas a las etiquetas que aportan información adicional o modifican su comportamiento, como `src` para definir la fuente de una imagen o `href` para especificar un enlace.
 
-# Ejemplo de estructura básica de HTML5
+## Ejemplo de estructura básica de HTML5
 
 ```html
 <!DOCTYPE html>             <!-- Indica que es HTML5 -->
@@ -122,7 +135,7 @@ Los atributos son propiedades añadidas a las etiquetas que aportan información
 </html>
 ```
 
-# Legibilidad y Organización del Código
+## Legibilidad y Organización del Código
 
 ## Legibilidad
 La **legibilidad** se refiere a la claridad con la que está escrito el código.  
@@ -143,7 +156,7 @@ Es muy importante porque casi nunca trabajamos solos, por lo que el código debe
 
 ![Estructura carpetas](https://github.com/davidvazquez33/Apuntes_Git_Markdown_HTML/blob/main/img/EstructuraCarpetas.png "Ejemplo de Estructura carpetas")
 
-# Tipos de etiquetas HTML
+## Tipos de etiquetas HTML
 
 ## En bloque
 Necesitan una línea nueva para ejecutarse, ejemplos:
@@ -159,7 +172,7 @@ Se pueden ejecutar en la misma línea que un bloque, ejemplos:
 - `<strong>`
 - `<em>`
 
-# Imágenes
+## Imágenes
 
 La etiqueta `<img>` se utiliza para insertar imágenes en una página web. Es una etiqueta vacía, lo que significa que no tiene una etiqueta de cierre (`</img>`). Se le pueden añadir diferentes atributos.
 
@@ -170,7 +183,7 @@ La etiqueta `<img>` se utiliza para insertar imágenes en una página web. Es un
 - **`alt`**: Proporciona texto alternativo que se muestra si la imagen no puede cargarse.
 - **Con `width` y `height`**: Podemos darle el tamaño que queramos a la imagen.
 
-# Links
+## Links
 
 Para poner links (de manera básica) utilizamos la etiqueta `<a>`, junto con el atributo `href`.
 
@@ -180,6 +193,33 @@ Para poner links (de manera básica) utilizamos la etiqueta `<a>`, junto con el 
 <a href="https://github.com/davidvazquez33">Mi Github</a>
 ```
 
+# Formularios
+
+Los formularios en HTML son elementos interactivos que permiten recopilar datos del usuario, como texto, opciones o archivos, y enviarlos para su procesamiento. Se definen con la etiqueta `<form>` y pueden incluir campos como `<input>`, menús desplegables, botones y más.
+
+## Etiquetas de formularios:
+
+- **`<form>`**: La utilizamos para comenzar con el formulario.
+
+- **`<input>`**: Para recibir datos, sus atributos más usados son:
+  - **`text`**: Para introducir texto simple.
+  - **`password`**: Para que sea como texto "ocultado", ya que es una contraseña.
+  - **`checkbox`**: Para hacer una casilla de verificación.
+  - **`placeholder`**: Texto informativo dentro del campo cuando está vacío.
+
+- **`<select>`**: Para definir un menú desplegable.
+
+- **`<button>`**: Para definir un botón.
+
+- **`<option>`**: Para definir una a una las opciones del menú.
+
+- **`<fieldset>`**: Para agrupar diferentes elementos de un formulario.
+
+- **`<legend>`**: Para poner un título de grupo.
+
+- **`<textarea>`**: Para definir un área de texto. Atributos:
+  - **`rows`**: Filas visibles.
+  - **`cols`**: Columnas visibles.
 
 
 
