@@ -106,6 +106,21 @@ Estas etiquetas definen la estructura y el tipo de contenido.
 
 Los atributos son propiedades añadidas a las etiquetas que aportan información adicional o modifican su comportamiento, como `src` para definir la fuente de una imagen o `href` para especificar un enlace.
 
+# Ejemplo de estructura básica de HTML5
+
+```html
+<!DOCTYPE html>             <!-- Indica que es HTML5 -->
+<html lang="en">            <!-- Contenedor principal del documento -->
+<head>                      <!-- Datos como el título de página, links a CSS… -->
+    <meta charset="UTF-8">  <!-- Define algunos metadatos -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura HTML</title>  <!-- Título de página -->
+</head>
+<body>                      <!-- Contenido visible de la web -->
+    
+</body>
+</html>
+´´´
 
 
 
