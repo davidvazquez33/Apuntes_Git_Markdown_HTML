@@ -54,7 +54,7 @@ tunning de palabras: _cursiva_ *cursiva* **negrita** **_cursinegra_**
 
 ### Como poner una imagen
 
-![KTM IMG](https://github.com/davidvazquez33/aprendizajemarkdown/blob/main/ktm.png "PopUP")
+![KTM IMG](https://github.com/davidvazquez33/Apuntes_Git_Markdown_HTML/blob/main/img/ktm.png "PopUP")
 
 ### Como Hacer una tabla:
 
@@ -141,13 +141,8 @@ Es muy importante porque casi nunca trabajamos solos, por lo que el código debe
 4. **Estructura de carpetas óptima:**  
    - Es recomendable organizar los archivos en carpetas. Ejemplo:
 
-web/                (carpeta principal de la web)
-|-- img/            (carpeta para las imágenes)
-|--  |-- sandia.png 
-|--  |-- melon.png
-|-- css/            (carpeta para los archivos CSS)
-|--   |-- styles.css
-|-- index.html      (archivo HTML principal)
+![Estructura carpetas](https://github.com/davidvazquez33/Apuntes_Git_Markdown_HTML/blob/main/img/EstructuraCarpetas.png "Ejemplo de Estructura carpetas")
+
 
 
 
