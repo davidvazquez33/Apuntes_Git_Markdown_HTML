@@ -120,7 +120,35 @@ Los atributos son propiedades añadidas a las etiquetas que aportan información
     
 </body>
 </html>
-´´´
+```
+
+# Legibilidad y Organización del Código
+
+## Legibilidad
+La **legibilidad** se refiere a la claridad con la que está escrito el código.  
+Es muy importante porque casi nunca trabajamos solos, por lo que el código debe ser comprensible para los demás, no solo para nosotros.
+
+### ¿Cómo hacer el código más legible?
+1. **Comentándolo:**  
+   - En el caso de HTML, se utiliza: `<!-- comentario -->`.
+
+2. **Indentación del código:**  
+   - Utilizar espacios o tabulaciones (TAB) para estructurar el código correctamente.
+
+3. **Organización de los archivos con nombres representativos:**  
+   - Ejemplo: Si tenemos una imagen de una sandía, podemos nombrarla `sandia.png` en lugar de nombres genéricos como `jjfaj.png` o `img.png`.
+
+4. **Estructura de carpetas óptima:**  
+   - Es recomendable organizar los archivos en carpetas. Ejemplo:
+
+web/                (carpeta principal de la web)
+|-- img/            (carpeta para las imágenes)
+|--  |-- sandia.png 
+|--  |-- melon.png
+|-- css/            (carpeta para los archivos CSS)
+|--   |-- styles.css
+|-- index.html      (archivo HTML principal)
+
 
 
 
