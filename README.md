@@ -56,36 +56,11 @@ tunning de palabras: _cursiva_ *cursiva* **negrita** **_cursinegra_**
 
 ![KTM IMG](https://github.com/davidvazquez33/aprendizajemarkdown/blob/main/ktm.png "PopUP")
 
+### Como Hacer una tabla:
+
+
 | Titulo 1 | Titulo 2 | Titulo 3 |
 |--------------|:-------------:|-------------:|
 |Izquierda|Medio|Derecha|
 
-# ASIX1-0373-A2 - Puesta En Práctica (Documentación con Markdown)
 
-## Evaluación inicial
-
-### 1. ¿Qué es una página web?
-**Respuesta.**
-
-### 2. ¿Qué es un servidor web?
-**Respuesta.**
-
-### 3. ¿Qué son los lenguajes de marcas? ¿Cuántos conoces?  
-**Respuesta:** Enuméralos en una tabla que tenga dos columnas (Nombre, enlace a documentación).
-
-| **Nombre** | **Enlace a documentación** |
-|------------|-----------------------------|
-|            |                             |
-
-### 4. ¿Qué es HTML? ¿Sabes cómo se estructura?
-**Respuesta.**
-
-#### Figura 1: Estructura de código HTML
-
-### 5. ¿Qué es CSS?
-**Respuesta.**
-
-### 6. ¿Sabes cómo funciona un navegador web? Describe brevemente el proceso que se sigue para visualizar una página web:
-**Respuesta.**
-
-#### Figura 2: Esquema de peticiones HTML
