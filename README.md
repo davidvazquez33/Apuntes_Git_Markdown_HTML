@@ -143,6 +143,44 @@ Es muy importante porque casi nunca trabajamos solos, por lo que el código debe
 
 ![Estructura carpetas](https://github.com/davidvazquez33/Apuntes_Git_Markdown_HTML/blob/main/img/EstructuraCarpetas.png "Ejemplo de Estructura carpetas")
 
+# Tipos de etiquetas HTML
+
+## En bloque
+Necesitan una línea nueva para ejecutarse, ejemplos:
+- `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, `<h6>`
+- `<p></p>`
+- `<ul>`
+- `<ol>`
+- `<li>`
+
+## En línea
+Se pueden ejecutar en la misma línea que un bloque, ejemplos:
+- `<a>`
+- `<strong>`
+- `<em>`
+
+# Imágenes
+
+La etiqueta `<img>` se utiliza para insertar imágenes en una página web. Es una etiqueta vacía, lo que significa que no tiene una etiqueta de cierre (`</img>`). Se le pueden añadir diferentes atributos.
+
+## Atributos principales de `<img>`:
+- **`src`**: Especifica la ruta de la imagen que se desea mostrar. Puede ser:
+  - **Ruta absoluta**: Enlace completo (ejemplo: `https://github.com/davidvazquez33/Apuntes_Git_Markdown_HTML/blob/main/img/EstructuraCarpetas.png`).
+  - **Ruta relativa**: Ruta del archivo dentro del mismo proyecto (ejemplo: `../img/img1`).
+- **`alt`**: Proporciona texto alternativo que se muestra si la imagen no puede cargarse.
+- **Con `width` y `height`**: Podemos darle el tamaño que queramos a la imagen.
+
+# Links
+
+Para poner links (de manera básica) utilizamos la etiqueta `<a>`, junto con el atributo `href`.
+
+## Ejemplo:
+
+```html
+<a href="https://github.com/davidvazquez33">Mi Github</a>
+```
+
+
 
 
 
