@@ -32,7 +32,7 @@
 8. **Subir el commit:**
    - Utilizaremos: `git push origin main`.
 
-## Configura GitHub Pages
+## Publicar en GitHub Pages
 
 1. En nuestro repositorio de GitHub, iremos a la pestaña **Settings**.
 2. Nos desplazaremos hasta la sección **Pages**.
@@ -90,12 +90,13 @@ tunning de palabras: _cursiva_ *cursiva* **negrita** **_cursinegra_**
 </html>
 
 ```
+### Como poner un link
 
 [Web J23](https://www.fje.edu/ca/jesuites-bellvitge "popup")
 
 ### Como poner una imagen
 
-![KTM IMG](https://github.com/davidvazquez33/Apuntes_Git_Markdown_HTML/blob/main/img/ktm.png "PopUP")
+![KTM IMG](https://raw.githubusercontent.com/davidvazquez33/Apuntes_Git_Markdown_HTML/main/img/ktm.png "PopUP")
 
 ### Como Hacer una tabla:
 
@@ -154,7 +155,7 @@ Es muy importante porque casi nunca trabajamos solos, por lo que el código debe
 4. **Estructura de carpetas óptima:**  
    - Es recomendable organizar los archivos en carpetas. Ejemplo:
 
-![Estructura carpetas](https://github.com/davidvazquez33/Apuntes_Git_Markdown_HTML/blob/main/img/EstructuraCarpetas.png "Ejemplo de Estructura carpetas")
+![Estructura carpetas](https://raw.githubusercontent.com/davidvazquez33/Apuntes_Git_Markdown_HTML/main/img/EstructuraCarpetas.png "Ejemplo de Estructura carpetas")
 
 ## Tipos de etiquetas HTML
 
@@ -220,6 +221,48 @@ Los formularios en HTML son elementos interactivos que permiten recopilar datos 
 - **`<textarea>`**: Para definir un área de texto. Atributos:
   - **`rows`**: Filas visibles.
   - **`cols`**: Columnas visibles.
+
+  ## Ejemplo de formulario:
+
+  ```html
+  <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="recepcion.php" method="GET">
+        <label>Nombre:</label>
+        <input type="text" name="nombre" placeholder="Introduce tu nombre"><br><br>
+        <label>Passwd:</label>
+        <input type="password" name="password" placeholder="Introduce tu contraseña"><br>
+
+    <fieldset>
+        <legend>Idioma</legend>
+        <label for="castellano">Castellano:</label>
+        <input type="radio" name="idioma" value="castellano" id="castellano">
+        <label for="catalan">Catalan:</label>
+        <input type="radio" name="idioma" value="catalan" id="catalan">
+        <label for="ingles">ingles:</label>
+        <input type="radio" name="idioma" value="ingles" id="ingles">
+    </fieldset>
+    <label for="obs">Observaciones:</label><br>
+    <textarea name="observaciones" id="obs" cols="80" rows="4" placeholder="introduce observaciones"></textarea>
+    <br><br>
+    <select id="ciudad" name="ciudad">
+        <option value="">Seleccione una ciudad</option>
+        <option value="Barcelona">Barcelona</option>
+        <option value="Madrid">Madrid</option>
+        <option value="Valencia">Valencia</option>
+        <option value="Sevilla">Sevilla</option>
+        <option value="Murcia">Murcia</option>
+    </select>
+    
+</body>
+</html>
+```
 
 
 
