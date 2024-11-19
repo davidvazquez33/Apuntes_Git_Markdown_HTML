@@ -238,7 +238,6 @@ Los formularios en HTML son elementos interactivos que permiten recopilar datos 
         <input type="text" name="nombre" placeholder="Introduce tu nombre"><br><br>
         <label>Passwd:</label>
         <input type="password" name="password" placeholder="Introduce tu contraseña"><br>
-
     <fieldset>
         <legend>Idioma</legend>
         <label for="castellano">Castellano:</label>
@@ -259,7 +258,6 @@ Los formularios en HTML son elementos interactivos que permiten recopilar datos 
         <option value="Sevilla">Sevilla</option>
         <option value="Murcia">Murcia</option>
     </select>
-    
 </body>
 </html>
 ```
