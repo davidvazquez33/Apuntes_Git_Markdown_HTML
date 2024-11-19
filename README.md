@@ -63,4 +63,33 @@ tunning de palabras: _cursiva_ *cursiva* **negrita** **_cursinegra_**
 |--------------|:-------------:|-------------:|
 |Izquierda|Medio|Derecha|
 
+# APUNTES GITHUB
+
+# Comandos básicos de Git
+
+1. **Creación de repositorios:**
+   - Crearemos los repositorios desde la página web.
+
+2. **Clonar un repositorio:**
+   - Utilizaremos la orden: `git clone <link del repositorio>`.
+
+3. **Inicializar un repositorio:**
+   - Utilizaremos: `git init`.
+
+4. **Cambiar la rama:**
+   - Con `git branch -M` podremos cambiar la rama.
+
+5. **Ver las ramas del repositorio:**
+   - Utilizaremos: `git branch`.
+
+6. **Añadir actualizaciones al área intermedia:**
+   - Con `git add .` subiremos todas las actualizaciones al área intermedia.
+
+7. **Guardar los cambios en un commit:**
+   - Con `git commit -m "info commit"` guardaremos los cambios del área intermedia en un commit para después poder subirlos.
+
+8. **Subir el commit:**
+   - Utilizaremos: `git push origin main`.
+
+
 
