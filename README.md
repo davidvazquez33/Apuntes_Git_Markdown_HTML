@@ -91,5 +91,21 @@ tunning de palabras: _cursiva_ *cursiva* **negrita** **_cursinegra_**
 8. **Subir el commit:**
    - Utilizaremos: `git push origin main`.
 
+# HTML
+
+**HTML (HyperText Markup Language)** es el lenguaje estándar utilizado para crear y estructurar el contenido en la web.  
+Actúa como el esqueleto de una página web, permitiendo organizar elementos como texto, imágenes, enlaces, tablas y formularios mediante el uso de etiquetas específicas.  
+Estas etiquetas no se ven directamente en la página, pero definen cómo se presenta y organiza la información para el usuario.  
+
+## Etiquetas
+
+Las etiquetas de HTML son comandos que delimitan el inicio y el final de un elemento en una página web, como `<p>` para párrafos o `<img>` para imágenes.  
+Estas etiquetas definen la estructura y el tipo de contenido.
+
+## Atributos
+
+Los atributos son propiedades añadidas a las etiquetas que aportan información adicional o modifican su comportamiento, como `src` para definir la fuente de una imagen o `href` para especificar un enlace.
+
+
 
 
