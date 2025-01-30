@@ -10,6 +10,10 @@
 
 1. **Creación de repositorios:**
    - Crearemos los repositorios desde la página web.
+   - Como vemos en la img, dentro de nuestro perfil de repositorios, pulsaremos en "New":
+   ![KTM IMG](https://github.com/davidvazquez33/Apuntes_Git_Markdown_HTML/blob/main/img/newrepo.png "img de crear repo")
+   - Tras pulsar ahí, nos pedirá toda la info que vemos en la siguiente imagen, y la rellenaremos a nuestro gusto, *es muy importante que si queremos que la gente lo pueda ver, lo marquemos como público*
+   ![KTM IMG](https://github.com/davidvazquez33/Apuntes_Git_Markdown_HTML/blob/main/img/infonewrepo.png "img info repo")
 
 2. **Clonar un repositorio:**
    - Utilizaremos la orden: `git clone <link del repositorio>`.
