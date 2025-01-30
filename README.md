@@ -262,9 +262,31 @@ Los formularios en HTML son elementos interactivos que permiten recopilar datos 
         <option value="Sevilla">Sevilla</option>
         <option value="Murcia">Murcia</option>
     </select>
+
+# Validación HTML
+
+## W3C HTML VALIDATOR
+
+Un validador web permite comprobar si el código de una página en formatos como HTML y CSS es correcto, ayudando a detectar errores y enlaces inactivos, y mejorando la sintáxis a pesar de que funcione.
+
+### Métodos de validación  
+
+Existen tres formas principales de realizar la validación:  
+
+1. **Mediante la URL**: Se introduce la dirección web de la página para analizar su contenido.  
+2. **Subiendo un archivo**: Se carga directamente el documento que contiene el código.  
+3. **Copiando y pegando el código**: Se inserta manualmente el código en el validador para su revisión.  
+
+### Como se ven los errores:
+
+En la imagen, podemos ver como este validador nos marca los errores, sinceramente, si tienes el inglés dominado, será muy facil arreglar los fallos.
+
+
+
+
+
 </body>
 </html>
-```
 
 
 
