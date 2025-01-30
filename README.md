@@ -281,8 +281,7 @@ Existen tres formas principales de realizar la validación:
 
 En la imagen, podemos ver como este validador nos marca los errores, sinceramente, si tienes el inglés dominado, será muy facil arreglar los fallos.
 
-
-
+![KTM IMG](https://github.com/davidvazquez33/Apuntes_Git_Markdown_HTML/blob/main/img/erroresW3C.png "PopUP")
 
 
 </body>
