@@ -292,6 +292,8 @@ En la imagen, podemos ver como este validador nos marca los errores, sincerament
 
 CSS separa el contenido (HTML) de la presentación, lo que facilita el mantenimiento y mejora la experiencia del usuario. Además, permite crear diseños responsivos y atractivos.
 
+![KTM IMG](https://github.com/davidvazquez33/Apuntes_Git_Markdown_HTML/blob/main/img/css.png "Logo css")
+
 ### Tipos de CSS
 
 1. **CSS en línea**: Se aplica directamente en la etiqueta HTML usando el atributo `style`.
