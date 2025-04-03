@@ -3,8 +3,7 @@
 1. [Github](#GITHUB)
 2. [Markdown](#Markdown)
 3. [HTML](#HTML)
-3. [CSS](#CSS)
-
+4. [CSS](#CSS)
 
 # GITHUB
 
@@ -287,8 +286,31 @@ En la imagen, podemos ver como este validador nos marca los errores, sincerament
 
 # CSS
 
+**CSS (Cascading Style Sheets)** es el lenguaje utilizado para describir la presentación de un documento HTML. Permite controlar el diseño, colores, fuentes y disposición de los elementos en una página web.
 
+## ¿Por qué usar CSS?
 
+CSS separa el contenido (HTML) de la presentación, lo que facilita el mantenimiento y mejora la experiencia del usuario. Además, permite crear diseños responsivos y atractivos.
 
+### Tipos de CSS
 
+1. **CSS en línea**: Se aplica directamente en la etiqueta HTML usando el atributo `style`.
+   ```html
+   <p style="color: blue; font-size: 16px;">Texto en azul</p>
+   ```
+
+2. **CSS interno**: Se incluye dentro de una etiqueta `<style>` en el `<head>` del documento.
+   ```html
+   <style>
+       p {
+           color: red;
+           font-size: 18px;
+       }
+   </style>
+   ```
+
+3. **CSS externo**: Se guarda en un archivo `.css` separado y se enlaza al HTML con `<link>`.
+   ```html
+   <link rel="stylesheet" href="styles.css">
+   ```
 
