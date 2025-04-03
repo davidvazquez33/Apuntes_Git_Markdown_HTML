@@ -3,6 +3,8 @@
 1. [Github](#GITHUB)
 2. [Markdown](#Markdown)
 3. [HTML](#HTML)
+3. [CSS](#CSS)
+
 
 # GITHUB
 
@@ -283,9 +285,8 @@ En la imagen, podemos ver como este validador nos marca los errores, sincerament
 
 ![KTM IMG](https://github.com/davidvazquez33/Apuntes_Git_Markdown_HTML/blob/main/img/erroresW3C.png "PopUP")
 
+# CSS
 
-</body>
-</html>
 
 
 
