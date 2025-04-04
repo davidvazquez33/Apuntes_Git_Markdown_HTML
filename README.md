@@ -292,7 +292,7 @@ En la imagen, podemos ver como este validador nos marca los errores, sincerament
 
 CSS separa el contenido (HTML) de la presentación, lo que facilita el mantenimiento y mejora la experiencia del usuario. Además, permite crear diseños responsivos y atractivos.
 
-![KTM IMG](https://github.com/davidvazquez33/Apuntes_Git_Markdown_HTML/blob/main/img/css.png "Logo css")
+![CSS LOGO](https://github.com/davidvazquez33/Apuntes_Git_Markdown_HTML/blob/main/img/css.png "Logo css")
 
 ### Tipos de CSS
 
@@ -316,3 +316,94 @@ CSS separa el contenido (HTML) de la presentación, lo que facilita el mantenimi
    <link rel="stylesheet" href="styles.css">
    ```
 
+### Selectores básicos
+
+- **Selector de etiqueta**: Aplica estilos a todas las etiquetas de un tipo, hay de p, body...
+  ```css
+  p {
+      color: green;
+  }
+  ```
+
+- **Selector de clase**: Se aplica a elementos con una clase específica.
+  ```css
+  .miClase {
+      font-weight: bold;
+  }
+  ```
+
+- **Selector de ID**: Se aplica a un elemento con un ID único.
+  ```css
+  #miID {
+      text-align: center;
+  }
+  ```
+
+  ### Propiedades comunes
+
+1. **Colores y fondos**:
+   ```css
+   body {
+       background-color: #f0f0f0;
+       color: #333;
+   }
+   ```
+
+2. **Fuentes y texto**:
+   ```css
+   h1 {
+       font-family: Arial, sans-serif;
+       font-size: 24px;
+       text-transform: uppercase;
+   }
+   ```
+
+3. **Espaciado y bordes**:
+   ```css
+   div {
+       margin: 10px;
+       padding: 15px;
+       border: 1px solid #ccc;
+   }
+   ```
+
+4. **Sombra y efectos**:
+   ```css
+   box {
+       box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Sombra de caja */
+       text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra de texto */
+   }
+   ```
+
+5. **Transiciones y animaciones (hover)**:
+   ```css
+   button {
+       background-color: #007bff;
+       color: white;
+       transition: background-color 0.3s ease; /* Transición suave */
+   }
+
+   button:hover {
+       background-color: #0056b3; /* Cambia el color al pasar el ratón */
+   }
+   ```
+
+6. **Decoración y estilo de enlaces**:
+   ```css
+   a {
+       text-decoration: none; /* Quitar subrayado */
+       color: blue; /* Color del enlace */
+   }
+
+   a:hover {
+       text-decoration: underline; /* Subrayado al pasar el ratón */
+   }
+   ```
+
+7. **Curvatura y bordes redondeados**:
+   ```css
+   button {
+       border-radius: 10px; /* Bordes redondeados */
+       border: 2px solid #000; /* Borde sólido */
+   }
+   ```
