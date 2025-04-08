@@ -407,3 +407,43 @@ CSS separa el contenido (HTML) de la presentación, lo que facilita el mantenimi
        border: 2px solid #000; /* Borde sólido */
    }
    ```
+
+### Diseño responsivo
+
+El diseño responsivo permite que una página web se adapte a diferentes tamaños de pantalla, mejorando la experiencia del usuario en dispositivos como móviles, tablets y ordenadores. Para lograrlo, se pueden utilizar:
+
+1. **Unidades relativas**:  
+   En lugar de usar unidades fijas como píxeles (`px`), se recomienda usar unidades relativas como:
+   - **Porcentajes (`%`)**: Ajustan el tamaño en relación al contenedor padre.
+   - **Viewport Height (`vh`) y Viewport Width (`vw`)**: Ajustan el tamaño en función del alto o ancho de la ventana del navegador.
+   ```css
+   body {
+       font-size: 2vw; /* Tamaño de fuente relativo al ancho de la ventana */
+   }
+
+   div {
+       width: 50%; /* Ocupa el 50% del ancho del contenedor */
+       height: 50vh; /* Ocupa el 50% de la altura de la ventana */
+   }
+   ```
+
+2. **Media queries**:  
+   Permiten aplicar estilos específicos según el tamaño de la pantalla. Esto es útil para realizar **saltos de página**, que son puntos donde el diseño cambia para adaptarse mejor al dispositivo. Por ejemplo:
+   ```css
+   @media (max-width: 768px) {
+       body {
+           font-size: 14px; /* Cambia el tamaño de fuente en pantallas pequeñas */
+       }
+   }
+
+   @media (min-width: 769px) and (max-width: 1200px) {
+       body {
+           font-size: 16px; /* Ajuste para pantallas medianas */
+       }
+   }
+   ```
+   En este ejemplo, se define un salto de página en 768px, donde el diseño cambia para pantallas más pequeñas, y otro entre 769px y 1200px para pantallas medianas.
+
+Usar estas técnicas asegura que el diseño sea flexible y se vea bien en cualquier dispositivo.
+
+![Responsive IMG](https://github.com/davidvazquez33/Apuntes_Git_Markdown_HTML/blob/main/img/responsive.png<> "Responsive IMG")
