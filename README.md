@@ -97,18 +97,62 @@ tunning de palabras: _cursiva_ *cursiva* **negrita** **_cursinegra_**
 ```
 ### Como poner un link
 
+Para insertar un enlace en Markdown, utilizamos la siguiente sintaxis:  
+```markdown
+[Texto del enlace](URL "Texto emergente opcional")
+```
+- **Texto del enlace**: Es el texto que se mostrará como enlace.  
+- **URL**: Es la dirección a la que apunta el enlace.  
+- **Texto emergente opcional**: Es un texto que aparece al pasar el ratón sobre el enlace (opcional).  
+
+Ejemplo:  
+```markdown
+[Web J23](https://www.fje.edu/ca/jesuites-bellvitge "popup")
+```
+Resultado:  
 [Web J23](https://www.fje.edu/ca/jesuites-bellvitge "popup")
 
 ### Como poner una imagen
 
+Para insertar una imagen en Markdown, utilizamos la siguiente sintaxis:  
+```markdown
+![Texto alternativo](URL "Texto emergente opcional")
+```
+- **Texto alternativo**: Es el texto que se mostrará si la imagen no se carga.  
+- **URL**: Es la dirección de la imagen.  
+- **Texto emergente opcional**: Es un texto que aparece al pasar el ratón sobre la imagen (opcional).  
+
+Ejemplo:  
+```markdown
+![KTM IMG](https://raw.githubusercontent.com/davidvazquez33/Apuntes_Git_Markdown_HTML/main/img/ktm.png "PopUP")
+```
+Resultado:  
 ![KTM IMG](https://raw.githubusercontent.com/davidvazquez33/Apuntes_Git_Markdown_HTML/main/img/ktm.png "PopUP")
 
 ### Como Hacer una tabla:
 
+Para crear una tabla en Markdown, utilizamos la siguiente sintaxis:  
+```markdown
+| Columna 1 | Columna 2 | Columna 3 |
+|-----------|:---------:|----------:|
+| Alineada a la izquierda | Centrada | Alineada a la derecha |
+```
+- Los guiones (`-`) debajo de los encabezados definen la tabla.  
+- Los dos puntos (`:`) definen la alineación:  
+  - `:---` para alineación a la izquierda.  
+  - `:---:` para alineación centrada.  
+  - `---:` para alineación a la derecha.  
 
+Ejemplo:  
+```markdown
 | Titulo 1 | Titulo 2 | Titulo 3 |
-|--------------|:-------------:|-------------:|
-|Izquierda|Medio|Derecha|
+|----------|:--------:|---------:|
+| Izquierda | Medio | Derecha |
+```
+Resultado:  
+| Titulo 1 | Titulo 2 | Titulo 3 |
+|----------|:--------:|---------:|
+| Izquierda | Medio | Derecha |
 
 # HTML
 
@@ -226,6 +270,37 @@ Los formularios en HTML son elementos interactivos que permiten recopilar datos 
 - **`<textarea>`**: Para definir un área de texto. Atributos:
   - **`rows`**: Filas visibles.
   - **`cols`**: Columnas visibles.
+
+## Métodos de envío: POST y GET
+
+Cuando enviamos datos desde un formulario HTML, podemos usar los métodos `POST` o `GET` especificados en el atributo `method` de la etiqueta `<form>`:
+
+1. **GET**:  
+   - Envía los datos como parte de la URL, lo que los hace visibles en la barra de direcciones del navegador.  
+   - Es útil para solicitudes donde no se maneja información sensible, como búsquedas o filtros.  
+   - Ejemplo:
+     ```html
+     <form action="procesar.php" method="GET">
+         <input type="text" name="nombre" placeholder="Introduce tu nombre">
+         <button type="submit">Enviar</button>
+     </form>
+     ```
+     Resultado en la URL: `https://example.com/procesar.php?nombre=Juan`.
+
+2. **POST**:  
+   - Envía los datos en el cuerpo de la solicitud HTTP, lo que los hace invisibles en la URL.  
+   - Es más seguro y se utiliza para manejar información sensible, como contraseñas o datos personales.  
+   - Ejemplo:
+     ```html
+     <form action="procesar.php" method="POST">
+         <input type="password" name="password" placeholder="Introduce tu contraseña">
+         <button type="submit">Enviar</button>
+     </form>
+     ```
+
+**Diferencias clave**:
+- **GET** es más rápido y adecuado para solicitudes idempotentes (que no cambian el estado del servidor).
+- **POST** es más seguro y adecuado para enviar grandes cantidades de datos o información sensible.
 
   ## Ejemplo de formulario:
 
@@ -446,4 +521,4 @@ El diseño responsivo permite que una página web se adapte a diferentes tamaño
 
 Usar estas técnicas asegura que el diseño sea flexible y se vea bien en cualquier dispositivo.
 
-![Responsive IMG](https://github.com/davidvazquez33/Apuntes_Git_Markdown_HTML/blob/main/img/responsive.png<> "Responsive IMG")
+![Responsive IMG](https://github.com/davidvazquez33/Apuntes_Git_Markdown_HTML/blob/main/img/responsive.jpeg "Responsive IMG")
