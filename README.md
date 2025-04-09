@@ -522,3 +522,118 @@ El diseño responsivo permite que una página web se adapte a diferentes tamaño
 Usar estas técnicas asegura que el diseño sea flexible y se vea bien en cualquier dispositivo.
 
 ![Responsive IMG](https://github.com/davidvazquez33/Apuntes_Git_Markdown_HTML/blob/main/img/responsive.jpeg "Responsive IMG")
+
+### Introducción a Bootstrap
+
+**Bootstrap** es un framework CSS de código abierto que facilita la creación de diseños web modernos, responsivos y consistentes. Proporciona una amplia variedad de componentes predefinidos, como botones, tablas, formularios y sliders, además de un sistema de grillas para organizar el contenido de manera flexible.
+
+#### ¿Por qué usar Bootstrap?
+
+1. **Diseño responsivo**: Bootstrap utiliza un sistema de grillas que permite adaptar el diseño a diferentes tamaños de pantalla.
+2. **Componentes predefinidos**: Incluye botones, tarjetas, tablas, sliders y más, listos para usar.
+3. **Personalización**: Permite modificar estilos mediante clases o archivos CSS personalizados.
+4. **Compatibilidad**: Funciona en todos los navegadores modernos.
+
+#### Ejemplo básico con Bootstrap:
+
+1. Enlaza Bootstrap en tu HTML:
+   ```html
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+   ```
+
+2. Usa clases predefinidas:
+   ```html
+   <div class="container">
+       <h1 class="text-center text-primary">Bienvenido</h1>
+       <button class="btn btn-success">Haz clic aquí</button>
+   </div>
+   ```
+
+#### Ejemplos de componentes útiles de Bootstrap:
+
+- **Botones**:  
+  Bootstrap ofrece botones con diferentes estilos y colores. Puedes personalizarlos con clases como `btn-primary`, `btn-danger`, etc.
+  ```html
+  <button class="btn btn-primary">Primario</button>
+  <button class="btn btn-secondary">Secundario</button>
+  <button class="btn btn-success">Éxito</button>
+  <button class="btn btn-danger">Peligro</button>
+  <button class="btn btn-warning">Advertencia</button>
+  <button class="btn btn-info">Información</button>
+  ```
+
+- **Tablas**:  
+  Las tablas en Bootstrap son fáciles de estilizar con la clase `table`. Puedes añadir clases como `table-striped` para filas alternadas o `table-hover` para resaltar filas al pasar el ratón.
+  ```html
+  <table class="table table-striped table-hover">
+      <thead class="table-dark">
+          <tr>
+              <th>#</th>
+              <th>Nombre</th>
+              <th>Edad</th>
+              <th>Ciudad</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>1</td>
+              <td>Juan</td>
+              <td>25</td>
+              <td>Barcelona</td>
+          </tr>
+          <tr>
+              <td>2</td>
+              <td>María</td>
+              <td>30</td>
+              <td>Madrid</td>
+          </tr>
+          <tr>
+              <td>3</td>
+              <td>Carlos</td>
+              <td>28</td>
+              <td>Valencia</td>
+          </tr>
+      </tbody>
+  </table>
+  ```
+
+- **Sliders (Carruseles)**:  
+  Bootstrap incluye un componente de carrusel para mostrar imágenes o contenido de manera interactiva.
+  ```html
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true"></button>
+          <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"></button>
+      </div>
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="img/slide1.jpg" class="d-block w-100" alt="Slide 1">
+          </div>
+          <div class="carousel-item">
+              <img src="img/slide2.jpg" class="d-block w-100" alt="Slide 2">
+          </div>
+          <div class="carousel-item">
+              <img src="img/slide3.jpg" class="d-block w-100" alt="Slide 3">
+          </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+      </button>
+  </div>
+  ```
+
+#### Con / sin bootstrap
+**En las imagenes vemos como simplemete con implementar bootstrap, la página cambia completamente, ya que pasa de ser plana sin estilos a tener estilos, estructuras, animaciones...**
+
+*SIN Bootstrap*
+![Sin Bootstrap](https://github.com/davidvazquez33/Apuntes_Git_Markdown_HTML/blob/main/img/sin_boostrap.png "Sin Bootstrap")
+
+*CON Bootstrap*
+![Con Bootstrap](https://github.com/davidvazquez33/Apuntes_Git_Markdown_HTML/blob/main/img/con_boostrap.png "Con Bootstrap")
+
