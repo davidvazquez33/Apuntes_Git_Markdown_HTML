@@ -4,6 +4,7 @@
 2. [Markdown](#Markdown)
 3. [HTML](#HTML)
 4. [CSS](#CSS)
+5. [XML](#XML)
 
 # GITHUB
 
@@ -12,9 +13,9 @@
 1. **Creación de repositorios:**
    - Crearemos los repositorios desde la página web.
    - Como vemos en la img, dentro de nuestro perfil de repositorios, pulsaremos en "New":
-   ![KTM IMG](https://github.com/davidvazquez33/Apuntes_Git_Markdown_HTML/blob/main/img/newrepo.png "img de crear repo")
+   ![KTM IMG](https://github.com/davidvazquez33/Apuntes_LenguajeMarcas/blob/main/img/newrepo.png "img de crear repo")
    - Tras pulsar ahí, nos pedirá toda la info que vemos en la siguiente imagen, y la rellenaremos a nuestro gusto, *es muy importante que si queremos que la gente lo pueda ver, lo marquemos como público*
-   ![KTM IMG](https://github.com/davidvazquez33/Apuntes_Git_Markdown_HTML/blob/main/img/infonewrepo.png "img info repo")
+   ![KTM IMG](https://github.com/davidvazquez33/Apuntes_LenguajeMarcas/blob/main/img/infonewrepo.png "img info repo")
 
 2. **Clonar un repositorio:**
    - Utilizaremos la orden: `git clone <link del repositorio>`.
@@ -124,10 +125,10 @@ Para insertar una imagen en Markdown, utilizamos la siguiente sintaxis:
 
 Ejemplo:  
 ```markdown
-![KTM IMG](https://raw.githubusercontent.com/davidvazquez33/Apuntes_Git_Markdown_HTML/main/img/ktm.png "PopUP")
+![KTM IMG](https://github.com/davidvazquez33/Apuntes_LenguajeMarcas/blob/main/img/ktm.png "PopUP")
 ```
 Resultado:  
-![KTM IMG](https://raw.githubusercontent.com/davidvazquez33/Apuntes_Git_Markdown_HTML/main/img/ktm.png "PopUP")
+![KTM IMG](https://github.com/davidvazquez33/Apuntes_LenguajeMarcas/blob/main/img/ktm.png "PopUP")
 
 ### Como Hacer una tabla:
 
@@ -204,7 +205,7 @@ Es muy importante porque casi nunca trabajamos solos, por lo que el código debe
 4. **Estructura de carpetas óptima:**  
    - Es recomendable organizar los archivos en carpetas. Ejemplo:
 
-![Estructura carpetas](https://raw.githubusercontent.com/davidvazquez33/Apuntes_Git_Markdown_HTML/main/img/EstructuraCarpetas.png "Ejemplo de Estructura carpetas")
+![Estructura carpetas](https://github.com/davidvazquez33/Apuntes_LenguajeMarcas/blob/main/img/EstructuraCarpetas.png "Ejemplo de Estructura carpetas")
 
 ## Tipos de etiquetas HTML
 
@@ -228,7 +229,7 @@ La etiqueta `<img>` se utiliza para insertar imágenes en una página web. Es un
 
 ## Atributos principales de `<img>`:
 - **`src`**: Especifica la ruta de la imagen que se desea mostrar. Puede ser:
-  - **Ruta absoluta**: Enlace completo (ejemplo: `https://github.com/davidvazquez33/Apuntes_Git_Markdown_HTML/blob/main/img/EstructuraCarpetas.png`).
+  - **Ruta absoluta**: Enlace completo (ejemplo: `https://github.com/davidvazquez33/Apuntes_LenguajeMarcas/blob/main/img/EstructuraCarpetas.png`).
   - **Ruta relativa**: Ruta del archivo dentro del mismo proyecto (ejemplo: `../img/img1`).
 - **`alt`**: Proporciona texto alternativo que se muestra si la imagen no puede cargarse.
 - **Con `width` y `height`**: Podemos darle el tamaño que queramos a la imagen.
@@ -357,7 +358,7 @@ Existen tres formas principales de realizar la validación:
 
 En la imagen, podemos ver como este validador nos marca los errores, sinceramente, si tienes el inglés dominado, será muy facil arreglar los fallos.
 
-![KTM IMG](https://github.com/davidvazquez33/Apuntes_Git_Markdown_HTML/blob/main/img/erroresW3C.png "PopUP")
+![KTM IMG](https://github.com/davidvazquez33/Apuntes_LenguajeMarcas/blob/main/img/erroresW3C.png "PopUP")
 
 # CSS
 
@@ -367,7 +368,7 @@ En la imagen, podemos ver como este validador nos marca los errores, sincerament
 
 CSS separa el contenido (HTML) de la presentación, lo que facilita el mantenimiento y mejora la experiencia del usuario. Además, permite crear diseños responsivos y atractivos.
 
-![CSS LOGO](https://github.com/davidvazquez33/Apuntes_Git_Markdown_HTML/blob/main/img/css.png "Logo css")
+![CSS LOGO](https://github.com/davidvazquez33/Apuntes_LenguajeMarcas/blob/main/img/css.png "Logo css")
 
 ### Tipos de CSS
 
@@ -598,7 +599,7 @@ El diseño responsivo permite que una página web se adapte a diferentes tamaño
    - **Viewport Height (`vh`) y Viewport Width (`vw`)**: Ajustan el tamaño en función del alto o ancho de la ventana del navegador.
    ```css
    body {
-       font-size: 2vw; /* Tamaño de fuente relativo al ancho de la ventana */
+       font-size: 2vw; /* Tamaño de fuente relativo al ancho de la ventana */ 
    }
 
    div {
@@ -626,7 +627,7 @@ El diseño responsivo permite que una página web se adapte a diferentes tamaño
 
 Usar estas técnicas asegura que el diseño sea flexible y se vea bien en cualquier dispositivo.
 
-![Responsive IMG](https://github.com/davidvazquez33/Apuntes_Git_Markdown_HTML/blob/main/img/responsive.jpeg "Responsive IMG")
+![Responsive IMG](https://github.com/davidvazquez33/Apuntes_LenguajeMarcas/blob/main/img/responsive.jpeg "Responsive IMG")
 
 ### Introducción a Bootstrap
 
@@ -737,16 +738,16 @@ Usar estas técnicas asegura que el diseño sea flexible y se vea bien en cualqu
 **En las imagenes vemos como simplemete con implementar bootstrap, la página cambia completamente, ya que pasa de ser plana sin estilos a tener estilos, estructuras, animaciones...**
 
 *SIN Bootstrap*
-![Sin Bootstrap](https://github.com/davidvazquez33/Apuntes_Git_Markdown_HTML/blob/main/img/sin_boostrap.png "Sin Bootstrap")
+![Sin Bootstrap](https://github.com/davidvazquez33/Apuntes_LenguajeMarcas/blob/main/img/sin_boostrap.png "Sin Bootstrap")
 
 *CON Bootstrap*
-![Con Bootstrap](https://github.com/davidvazquez33/Apuntes_Git_Markdown_HTML/blob/main/img/con_boostrap.png "Con Bootstrap")
+![Con Bootstrap](https://github.com/davidvazquez33/Apuntes_LenguajeMarcas/blob/main/img/con_boostrap.png "Con Bootstrap")
 
 # XML
 
 **XML (eXtensible Markup Language)** es un lenguaje de marcado diseñado para almacenar y transportar datos. A diferencia de HTML, XML no define cómo se deben mostrar los datos, sino que se centra en describirlos.
 
-![xml logo](https://github.com/davidvazquez33/Apuntes_Git_Markdown_HTML/blob/main/img/xml.png "xml logo")
+![xml logo](https://github.com/davidvazquez33/Apuntes_LenguajeMarcas/blob/main/img/xml.png "xml logo")
 
 ## Características principales de XML:
 1. **Estructura jerárquica**: Los datos se organizan en una estructura de árbol con elementos anidados.
