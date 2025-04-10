@@ -4,7 +4,8 @@
 2. [Markdown](#Markdown)
 3. [HTML](#HTML)
 4. [CSS](#CSS)
-5. [XML](#XML)
+5. [Diseño Responsivo](#Diseño-Responsivo)
+6. [XML](#XML)
 
 # GITHUB
 
@@ -589,7 +590,7 @@ Las animaciones permiten crear transiciones dinámicas entre estados.
 <div class="box"></div>
 ```
 
-### Diseño responsivo
+# Diseño Responsivo
 
 El diseño responsivo permite que una página web se adapte a diferentes tamaños de pantalla, mejorando la experiencia del usuario en dispositivos como móviles, tablets y ordenadores. Para lograrlo, se pueden utilizar:
 
