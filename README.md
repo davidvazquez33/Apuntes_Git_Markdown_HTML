@@ -414,7 +414,7 @@ CSS separa el contenido (HTML) de la presentación, lo que facilita el mantenimi
   }
   ```
 
-  ### Propiedades comunes
+### Propiedades comunes
 
 1. **Colores y fondos**:
    ```css
@@ -482,6 +482,111 @@ CSS separa el contenido (HTML) de la presentación, lo que facilita el mantenimi
        border: 2px solid #000; /* Borde sólido */
    }
    ```
+
+### Flexbox
+
+**Flexbox** es un modelo de diseño unidimensional que permite alinear y distribuir elementos dentro de un contenedor de manera eficiente, incluso cuando el tamaño de los elementos es dinámico.
+
+#### Propiedades principales:
+
+1. **`display: flex;`**: Activa el modelo Flexbox en un contenedor.
+2. **`justify-content`**: Alinea los elementos horizontalmente.
+   - Valores: `flex-start`, `flex-end`, `center`, `space-between`, `space-around`, `space-evenly`.
+3. **`align-items`**: Alinea los elementos verticalmente.
+   - Valores: `stretch`, `flex-start`, `flex-end`, `center`, `baseline`.
+4. **`flex-wrap`**: Permite que los elementos se envuelvan en varias líneas.
+   - Valores: `nowrap`, `wrap`, `wrap-reverse`.
+
+#### Ejemplo:
+
+```css
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.item {
+    flex: 1;
+    margin: 10px;
+}
+```
+
+```html
+<div class="container">
+    <div class="item">Elemento 1</div>
+    <div class="item">Elemento 2</div>
+    <div class="item">Elemento 3</div>
+</div>
+```
+
+### Pseudo-clases
+
+Las pseudo-clases permiten aplicar estilos a un elemento en un estado específico.
+
+#### Ejemplos comunes:
+
+1. **`:hover`**: Aplica estilos cuando el ratón pasa sobre un elemento.
+2. **`:nth-child()`**: Selecciona elementos según su posición en el contenedor.
+3. **`:focus`**: Aplica estilos cuando un elemento está enfocado.
+
+#### Ejemplo:
+
+```css
+button:hover {
+    background-color: lightgreen;
+    color: white;
+}
+li:nth-child(odd) {
+    background-color: #f0f0f0;
+}
+input:focus {
+    border: 2px solid blue;
+}
+```
+
+```html
+<ul>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+</ul>
+<input type="text" placeholder="Escribe aquí">
+```
+
+### Animaciones
+
+Las animaciones permiten crear transiciones dinámicas entre estados.
+
+#### Propiedades principales:
+
+1. **`@keyframes`**: Define los pasos de la animación.
+2. **`animation-name`**: Nombre de la animación.
+3. **`animation-duration`**: Duración de la animación.
+4. **`animation-iteration-count`**: Número de repeticiones.
+
+#### Ejemplo:
+
+```css
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: fadeIn 2s ease-in-out infinite;
+}
+```
+
+```html
+<div class="box"></div>
+```
 
 ### Diseño responsivo
 
@@ -637,3 +742,71 @@ Usar estas técnicas asegura que el diseño sea flexible y se vea bien en cualqu
 *CON Bootstrap*
 ![Con Bootstrap](https://github.com/davidvazquez33/Apuntes_Git_Markdown_HTML/blob/main/img/con_boostrap.png "Con Bootstrap")
 
+# XML
+
+**XML (eXtensible Markup Language)** es un lenguaje de marcado diseñado para almacenar y transportar datos. A diferencia de HTML, XML no define cómo se deben mostrar los datos, sino que se centra en describirlos.
+
+![xml logo](https://github.com/davidvazquez33/Apuntes_Git_Markdown_HTML/blob/main/img/xml.png "xml logo")
+
+## Características principales de XML:
+1. **Estructura jerárquica**: Los datos se organizan en una estructura de árbol con elementos anidados.
+2. **Etiquetas personalizadas**: Puedes definir tus propias etiquetas para describir los datos.
+3. **Legibilidad**: Es fácil de leer tanto para humanos como para máquinas.
+4. **Portabilidad**: Es independiente de la plataforma y del software.
+
+## Ejemplo básico de XML:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<libro>
+    <titulo>Aprendiendo XML</titulo>
+    <autor>Juan Pérez</autor>
+    <editorial>Editorial Ejemplo</editorial>
+    <precio moneda="USD">29.99</precio>
+</libro>
+```
+
+### Explicación del ejemplo:
+- **`<?xml version="1.0" encoding="UTF-8"?>`**: Declaración XML que indica la versión y codificación.
+- **Elementos**: `<libro>`, `<titulo>`, `<autor>`, etc., son etiquetas que definen los datos.
+- **Atributos**: `moneda="USD"` es un atributo que proporciona información adicional sobre el elemento `<precio>`.
+
+## Reglas básicas de XML:
+1. **Bien formado**:  
+   - Todas las etiquetas deben cerrarse.  
+     Ejemplo: `<etiqueta></etiqueta>` o `<etiqueta />`.  
+   - Las etiquetas deben estar correctamente anidadas.  
+     Ejemplo: `<padre><hijo></hijo></padre>`.  
+
+2. **Sensible a mayúsculas y minúsculas**:  
+   - `<Etiqueta>` y `<etiqueta>` son diferentes.
+
+3. **Un único elemento raíz**:  
+   - Todo el contenido debe estar dentro de un único elemento raíz.  
+     Ejemplo: `<raiz>...contenido...</raiz>`.
+
+## Usos comunes de XML:
+1. **Intercambio de datos**: XML se utiliza para transferir datos entre sistemas diferentes.
+2. **Configuración**: Muchos programas usan XML para almacenar configuraciones.
+3. **Almacenamiento de datos**: Se utiliza para guardar datos estructurados.
+
+## Ventajas de XML:
+- Fácil de entender y usar.
+- Compatible con muchos lenguajes de programación.
+- Extensible y flexible.
+
+## Desventajas de XML:
+- Puede ser más verboso que otros formatos como JSON.
+- Procesar XML puede ser más lento debido a su estructura detallada.
+
+```xml
+<!-- Ejemplo de configuración en XML -->
+<configuracion>
+    <servidor>
+        <host>localhost</host>
+        <puerto>8080</puerto>
+    </servidor>
+    <baseDeDatos>
+        <usuario>admin</usuario>
+        <password>12345</password>
+    </baseDeDatos>
+</configuracion>
